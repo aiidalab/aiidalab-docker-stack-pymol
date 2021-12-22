@@ -15,3 +15,5 @@ RUN apt-get update && apt install -y \
 
 
 RUN git clone https://github.com/schrodinger/pymol-open-source.git && cd pymol-open-source && git checkout v2.4.0 && python setup.py install
+
+CMD ["/sbin/my_my_init"]

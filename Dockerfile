@@ -1,4 +1,4 @@
-FROM aiidalab/aiidalab-docker-stack:develop
+FROM aiidalab/aiidalab-docker-stack:22.01.0
 
 USER root
 RUN apt-get update && apt install -y \

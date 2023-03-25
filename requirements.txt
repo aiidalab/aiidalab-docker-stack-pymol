@@ -1,0 +1,12 @@
+aiidalab~=23.3
+aiidalab-widgets-base~=1.3
+binaryornot~=0.4
+bokeh~=2.0
+bqplot~=0.12
+cookiecutter~=1.6
+markdown~=3.1
+pip~=22.0,<22.1
+pysmiles~=1.0
+pythreejs~=2.1
+widget-periodictable~=3.0
+numpy<1.24

@@ -41,7 +41,7 @@ RUN pip install -r requirements.txt $extra_requirements
 RUN reentry scan
 
 # Install the aiidalab-home app.
-ARG aiidalab_home_version=v23.03.0
+ARG aiidalab_home_version=v23.03.1
 RUN rm -rf aiidalab-home && git clone https://github.com/aiidalab/aiidalab-home && cd aiidalab-home && git checkout $aiidalab_home_version
 RUN chmod 774 aiidalab-home
 
